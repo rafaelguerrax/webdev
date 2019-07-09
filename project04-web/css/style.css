@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+}
+
+#compform {
+
+    font-weight: bolder;
+    -webkit-text-stroke: 1.5px rgb(15, 15, 71);
+}
+
+#cor {
+    background-color: rgba(65, 60, 56, 0.283);
+    z-index: 1;
+}
+
+.masthead {
+
+    background-image: url(../images/bg-masthead.jpg);
+}
+
+#login {
+    padding-left: 18px;
+    font-size: 18px;
+}
+
+#navmenu {
+
+    position: relative;
+    top: 50px;
+}
+
+#navmenu li {
+    text-align: center;
+    padding-right: 1.1rem;
+    list-style: none;
+    font-size: 18px;
+    -webkit-text-stroke: 0.1px rgb(15, 15, 71);
+
+}
+
+#navmenu li :hover {
+
+    color: rgba(16, 32, 173, 0.897);
+}
+
+#navmenu a {
+    text-decoration: none;
+    color: white;
+}
+
+#navmenu button {
+    border-radius: 8px;
+    ;
+    background-color: rgba(15, 15, 15, 0.795);
+    border: none;
+}
+
+#text1 {
+
+    -webkit-text-stroke: 1px rgb(22, 21, 21);
+    opacity: 0.9;
+    padding: 109px 0 70px 0;
+
+}
+
+#text2 {
+
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+#text4 {
+
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+#about {
+
+    height: 450px;
+    background: linear-gradient(rgba(117, 66, 8, 0.89), rgba(153, 75, 23, 0.774));
+}
+
+#services,
+footer {
+
+    background: linear-gradient( rgba(153, 75, 23, 0.774), rgba(117, 66, 8, 0.89));
+
+}
+
+#contact {
+
+    background: linear-gradient(rgba(117, 66, 8, 0.89),rgba(153, 75, 23, 0.774));
+
+}
+
+.imgservicemail{
+
+    position: relative;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.imgservice {
+
+    padding-top: 10px;
+    height: 85px;
+    width: 85px;
+}
+
+.imgservicep {
+    position: relative;
+    top: 22px;
+    right: 80px;
+    height: 30px;
+    width: 30px;
+}
+.email a{
+    color: white;
+    text-decoration: none;
+}
