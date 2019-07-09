@@ -1,0 +1,315 @@
+body {
+	background: rgb(228, 227, 227);
+}
+
+header {
+	padding: 2rem 0;
+	height: 11rem;
+
+}
+
+header img {
+	float: left;
+	height: 24px;
+	width: 118px;
+	margin-left: 1rem;
+}
+
+header button {
+	float: right;
+	height: 28px;
+	width: 112px;
+	background-color: white;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	margin-right: 1rem;
+}
+
+#buildcom {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4rem;
+	padding-bottom: 12rem;
+	width: 92%;
+}
+
+#buildcom h2 {
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+}
+
+#buildcom p {
+	padding: 1.2rem 0;
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	font-size: 16px;
+}
+
+#buildcom button {
+	font-size: 14px;
+	background-color:  rgb(202, 0, 202);
+	border-radius: 2px;
+	color: whitesmoke;
+	padding: 8px 40px;
+}
+
+#flowconv {
+	margin-top: 6rem;
+	padding: 0;
+}
+
+#gtogthr {
+	padding-top: 2rem;
+}
+
+#yusrs {
+	padding-top: 2rem;
+	padding-bottom: 6rem;
+}
+
+.title {
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 1rem;
+	font-size: 22px;
+}
+
+.txt {
+	color: gray;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+#imgtwo img {
+	width: 80%
+}
+
+#box {
+	width: 85%;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 4rem;
+}
+
+#box div {
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+#box h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#box p {
+	color: grey;
+	font-size: 14px;
+}
+
+#box button {
+
+	background-color:  rgb(202, 0, 202);
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	padding: 8px 40px;
+}
+
+#fgy {
+	width: 100%;
+	padding-left: 2.2rem;
+}
+
+
+#flogo {
+	text-align: center;
+	padding: 70px 0;
+}
+
+#flogo img {
+	width: 50%;
+}
+
+footer {
+	background-color: #00252E;
+}
+
+ul {
+
+	padding-bottom: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.flist a {
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.flist li {
+
+	padding: 10px 0;
+}
+
+#subscribe h2 {
+	margin-top: 80px;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 22px;
+	padding-bottom: 18px;
+}
+
+#subscribe p {
+
+	color: white;
+	font-size: 16px;
+	font-weight: 100px;
+}
+
+#subscribe button,
+input {
+
+	border-radius: 4px;
+	display: block;
+	padding: 10px 0;
+	margin: 10px 0;
+	width: 100%;
+	border: none;
+}
+
+#subscribe button {
+
+	background-color:  rgb(202, 0, 202);
+	color: white;
+	margin-bottom: 100px;
+}
+
+#social p {
+	padding: 20px 0;
+	color: white;
+}
+
+@media (min-width: 1200px) {
+	header {
+		padding: 3rem 0;
+		height: 11rem;
+	}
+
+	header img {
+		height: 34px;
+		width: 200px;
+		margin-left: 0.2rem;
+	}
+
+	header button {
+		height: 40px;
+		width: 160px;
+		margin-right: 0.2rem;
+	}
+
+	#buildcom h2 {
+
+		font-size: 28px;
+		font-weight: bolder;
+	}
+
+	#buildcom p {
+		margin: 0 auto;
+		width: 33.8rem;
+		font-size: 18px;
+	}
+
+	#buildcom button {
+
+		padding: 16px 80px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	#flowconv {
+		margin: 0;
+		padding: 0;
+	}
+
+	#gtogthr {
+		padding: 0;
+	}
+
+	#yusrs {
+		padding: 0;
+	}
+
+	#imgtwo img {
+		width: 100%
+	}
+
+	.title {
+		font-weight: bolder;
+		padding-bottom: 1rem;
+		font-size: 26px;
+	}
+
+	.txt {
+
+		color: gray;
+		font-size: 18px;
+	}
+
+	#box {
+		height: 270px;
+		width: 50%;
+		margin: 12rem auto;
+	}
+
+	#box h2 {
+		padding-top: 60px;
+		font-size: 30px;
+	}
+
+	#box p {
+		color: grey;
+		font-size: 18px;
+	}
+
+	#box button {
+
+		font-size: 18px;
+		margin-top: 14px;
+		padding: 10px 40px;
+	}
+
+
+	.flist ul {
+		padding: 0;
+	}
+
+	.flist {
+		padding: 0;
+	}
+
+	#flogo {
+		width: 30%;
+		text-align: left;
+		padding-top: 80px;
+		padding-bottom: 30px;
+	}
+
+	#subscribe h2 {
+
+		margin-top: 0;
+	}
+
+	#subscribe button {
+		margin-left: auto;
+		width: 50%;
+		position: relative;
+		right: 104px;
+	}
+
+}
