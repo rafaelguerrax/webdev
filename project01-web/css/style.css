@@ -1,0 +1,293 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400 ;	
+}
+
+.container { 
+	width: 960px; 
+	margin: 0 auto; 
+	position: relative;
+}
+
+header h1 {
+	margin-top: 10px;
+    margin-bottom: 8px;
+}
+  
+.container img {
+	margin: 9px 0;
+ 	width: 125px;
+ 	height: 61px;
+}
+
+.container ul {
+	text-align: right;
+}
+
+.menu-options ul {
+	position: absolute;
+	width: 400px;
+	left: 570px;
+    font-size: 12px;
+    bottom: 27px;
+}
+
+.menu-options li {
+    display: inline; 
+}
+
+.menu-options a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+    padding-right: 16px; 
+}
+
+.menu-options a:hover{
+  color: #007DC6;
+}
+
+.menu-options button{
+	border-radius: 16px;
+	background-color: black;
+	width: auto;
+	border: none;	
+}
+
+.menu-options button:hover {
+    background: linear-gradient(#00688B, black);
+	transition-duration: 0.5s;
+	opacity: 0.9;
+}
+
+#login a {
+	padding-left: 5px;
+	color: white;
+	text-align: center;
+	width: 10px;
+}
+
+#hello {
+	background-image:url(../img/bg_b.png);
+	background-repeat: round;	
+	text-align: center;
+	margin-bottom: 70px;
+	height: 415px;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+}
+
+#hello p {
+	position: relative;
+	width: auto;
+	top: 118px;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+#hello h1 {
+	position: relative;
+	width: auto;
+	top: 116px;
+	text-transform: uppercase;
+}
+
+#text p{
+	font-style: italic;
+	text-align: center;
+	font-weight:lighter;
+	font-size: 31px;
+	width: 960px;
+	margin-bottom: 80px;
+}
+
+#text hr { /*linha horizontal*/
+	margin-top: 60px;	
+  	width: 100%;
+  	border-bottom: 1px #000000;
+}
+
+#cr span {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.features li {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	margin: 8px;
+}
+
+.features h1 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+	padding: 32px 0;
+	font-size: 25px;	
+}
+	
+.features img {
+	padding-top: 60px;
+	display: inline-block;
+	width: 218px;
+	height: 218px;
+}
+
+.features p {
+	font-size: 19px;
+	font-weight: lighter;
+	margin-bottom: 85px;
+	width: 300px;
+	text-align: left;
+}
+
+.features a {
+	text-decoration: none;
+	color: black;
+}
+.extras img {
+	width: 373px;
+	height: 382px; 
+}
+
+#extratext {
+	position: relative;
+	width: 430px;
+	right: 520px;
+	display: inline-block;
+	bottom: 46px;
+	text-align: left;
+}
+
+#iphone {
+	display: inline-block;
+	width: 370px;
+	position: relative;
+	left: 410px;
+	top: 64px;
+}
+
+.extras h1 {
+	padding-bottom: 45px; 
+	font-weight: bolder;
+	font-size: 32px;
+	text-align: center;
+}
+
+.extras figure {
+	display: inline-block;
+}
+
+.lm {
+	background-color: black;
+	width: 230px;
+	height: 0;
+	border-radius: 60px;
+	position: relative;
+	top: 0;
+	left: 100px;
+	text-decoration: none;
+	padding-bottom: 12px;
+	padding-right: 10px;
+}
+
+.lm:hover {
+	background: linear-gradient(#104E8B, black);
+	opacity: 0.9;
+	transition-duration: 0.8s;
+}
+
+.lm img {
+	height: 22px;
+	width: 18px;
+	position: relative;
+	left: 30px;
+	top:12px; 
+}
+
+.lm a {
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+	position: relative;
+	bottom: 11px;
+}
+
+.corpo img {
+	opacity: 0.8;
+	filter: brightness(5);
+	height: 36px;
+	padding: 8px;
+	background-color: black;
+	position: absolute;
+	right: 0;
+	bottom: 16px;	
+	border-radius: 3px;
+}
+
+.corpo img:hover {
+	opacity: 0.5;
+	transition-duration: 0.4s;
+}
+
+#left {
+	left: 0;
+
+}
+footer{
+	height: 340px;
+	position: relative;
+	top: 60px;
+  	background-image:url(../img/bg_b.png);
+  	padding: 0;
+  	background-repeat: round;
+  	width: 100%;
+}
+
+.rodape {	
+	margin-left: 74px;
+	right: 54px;
+	position: relative;
+	top: 60px;
+	width: 80px;
+	display: inline-block;
+}
+
+.rodape li{
+	position: relative;
+	text-align: left;  
+	padding: 5px 0;
+	font-size: 16px;
+	width: 90px;
+	font-weight: 400;
+	left: 44px;
+	width: 90px;
+}
+.rodape h1{
+	text-transform: uppercase;
+	color: white;
+	padding: 6px 0;
+}
+.rodape a {
+	text-decoration: none;
+	color: grey;
+}
+.rodape a:hover{
+	opacity: 0.6; 
+}
+
+#watermark{
+	height: auto;
+	position: relative;
+	top: 190px;
+	width: 420px;
+	left: 56px;
+	color: #8B8682;
+	font-weight: 400;
+}
